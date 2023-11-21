@@ -17,9 +17,21 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
-            quick-tap-ms = <180>;
+            quick-tap-ms = <175>;
             flavor = "balanced";
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+        };
+
+        hrml: hrml {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HRML";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
         };
     };
 
@@ -34,10 +46,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U                  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &hrmr RIGHT_COMMAND J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M                  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2                  &kp RALT
+&kp TAB    &kp Q               &kp W             &kp E             &kp R                 &kp T        &kp Y    &kp U                  &kp I              &kp O                  &kp P                   &kp BSPC
+&kp LCTRL  &hrml LEFT_SHIFT A  &hrml LEFT_ALT S  &hrml LEFT_ALT D  &hrml LEFT_COMMAND F  &kp G        &kp H    &hrmr RIGHT_COMMAND J  &hrmr RIGHT_ALT K  &hrmr RIGHT_CONTROL L  &hrmr RIGHT_SHIFT SEMI  &kp SQT
+&kp LSHFT  &kp Z               &kp X             &kp C             &kp V                 &kp B        &kp N    &kp M                  &kp COMMA          &kp DOT                &kp FSLH                &kp ESC
+                                                 &mo 3             &mo 1                 &kp SPACE    &kp RET  &mo 2                  &mo 4
             >;
         };
 
@@ -77,6 +89,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp K_PLAY_PAUSE   &kp N4  &kp N5  &kp N6  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp C_VOLUME_DOWN  &kp N1  &kp N2  &kp N3  &trans  &trans
                         &trans  &trans  &trans    &trans             &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
