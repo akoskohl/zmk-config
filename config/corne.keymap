@@ -85,10 +85,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp KP_MULTIPLY  &trans    &kp UP_ARROW    &kp PAGE_UP    &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp CARET        &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp MINUS        &trans    &trans          &kp PAGE_DOWN  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans          &trans         &trans    &trans  &trans  &trans
+&trans  &kp KP_MULTIPLY  &trans    &kp UP_ARROW    &kp PAGE_UP    &kp DOLLAR    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp CARET        &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS        &trans    &trans          &kp PAGE_DOWN  &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans          &trans         &trans        &trans  &trans  &trans
             >;
         };
 
