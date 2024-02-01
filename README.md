@@ -15,7 +15,6 @@ This repo is a basic guide how I did it, and contains the files for my zmk keyma
 - [ ] Layout design: You can program any keystroke anywhere as you want to.
 - [ ] Battery: To be truly wireless.
 </br>
-Currently some parts missing, so I'm waiting for that, meanwhile assembled just to see how it will ![look](/IMG_4989.jpeg).
 
 ## Base steps
 
@@ -27,3 +26,6 @@ Currently some parts missing, so I'm waiting for that, meanwhile assembled just 
 - [ ] Keycaps: Place keycaps on the switches, ensuring they are aligned correctly.
 - [ ] Testing: Test each key to ensure it registers correctly. Fix any issues that arise.
 - [ ] Final Assembly: Close the case, securing all components in place.
+
+Currently some parts missing, so I'm waiting for that, meanwhile assembled just to see how it will look:
+<img src="IMG_4989.jpeg" width="360" height="360" />
