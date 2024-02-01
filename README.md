@@ -10,7 +10,7 @@ This repo is a basic guide how I did it, and contains the files for my zmk keyma
 </br>✅Diodes: Solder diodes to prevent key ghosting and ensure accurate input.
 </br>✅Plate: A plate can be used to hold switches in place and provide stability.
 </br>✅Case: Plenty of options, currently just a plate, but later I would like to have a 3D printed one.
-</br>✅ave 1U keys, not needed for his build.
+</br>✅Stabilizers: If you're building a larger keyboard or using certain key layouts, you'll need stabilizers for larger keys like Enter, Shift, and Spacebar, as I only have 1U keys, not needed for his build.
 </br>✅Soldering Iron and Solder: For soldering switches and other components to the PCB.
 </br>⌛ Layout design: You can program any keystroke anywhere as you want to.
 </br>⌛ Battery: To be truly wireless.
