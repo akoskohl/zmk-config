@@ -15,7 +15,7 @@ This repo is a basic guide how I did it, and contains the files for my zmk keyma
 - [ ] Layout design: You can program any keystroke anywhere as you want to.
 - [ ] Battery: To be truly wireless.
 </br>
-Currently some parts missing, so I'm waiting for that, meanwhile assembled just to see how it will look.
+Currently some parts missing, so I'm waiting for that, meanwhile assembled just to see how it will [look](/IMG_4989.jpeg).
 
 ## Base steps
 
