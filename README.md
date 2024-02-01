@@ -28,4 +28,4 @@ This repo is a basic guide how I did it, and contains the files for my zmk keyma
 - [ ] Final Assembly: Close the case, securing all components in place.
 
 Currently some parts missing, so I'm waiting for that, meanwhile assembled just to see how it will look:
-<img src="IMG_4989.jpeg" width="360" height="360" />
+<img src="IMG_4989.jpeg" />
