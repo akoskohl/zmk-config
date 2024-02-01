@@ -19,13 +19,15 @@ This repo is a basic guide how I did it, and contains the files for my zmk keyma
 ## Base steps
 
 ⌛ Layout Planning: Decide on your keyboard layout and ensure all components are compatible.
-- [ ] Soldering: Solder the diodes to the PCB, followed by the switches. Make sure to solder carefully and avoid cold joints.
-- [ ] Attach Microcontroller: Connect the microcontroller to the PCB, ensuring it has the necessary firmware.
-- [ ] Programming: Program your microcontroller to recognize keypresses and assign functions to each key.
-- [ ] Assembling the Case: Place the PCB into the case, securing it in place. If using a plate, attach switches to it before placing it in the case.
-- [ ] Keycaps: Place keycaps on the switches, ensuring they are aligned correctly.
-- [ ] Testing: Test each key to ensure it registers correctly. Fix any issues that arise.
-- [ ] Final Assembly: Close the case, securing all components in place.
+</br>⬜ Soldering: Solder the diodes to the PCB, followed by the switches. Make sure to solder carefully and avoid cold joints.
+</br>⬜ Attach Microcontroller: Connect the microcontroller to the PCB, ensuring it has the necessary firmware.
+</br>⬜ Programming: Program your microcontroller to recognize keypresses and assign functions to each key.
+</br>⬜ Assembling the Case: Place the PCB into the case, securing it in place. If using a plate, attach switches to it before placing it in the case.
+</br>⬜ Keycaps: Place keycaps on the switches, ensuring they are aligned correctly.
+</br>⬜ Testing: Test each key to ensure it registers correctly. Fix any issues that arise.
+</br>⬜ Final Assembly: Close the case, securing all components in place.
 
 Currently some parts missing, so I'm waiting for that, meanwhile assembled just to see how it will look:
 <img src="IMG_4989.jpeg" />
+
+</br>⬜
