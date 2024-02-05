@@ -6,7 +6,7 @@ This repo is a basic guide how I did it, and contains the files for my zmk keyma
 </br>✅ PCB (Printed Circuit Board): This is the brain of the keyboard, connecting the switches and managing keypress signals.
 </br>✅ Switches: Choose mechanical switches based on your preference (Cherry MX, Gateron, etc.). These are the keys that register keypresses.
 </br>✅ Keycaps: These are the physical keys you press. Make sure they are compatible with your chosen switches.
-</br>⌛ Microcontroller: As my goal was to go wireless, currently the only option is the nicenano chip. Order how swap sockets as well.
+</br>✅ Microcontroller: As my goal was to go wireless, currently the only option is the nicenano chip. Order how swap sockets as well.
 </br>✅Diodes: Solder diodes to prevent key ghosting and ensure accurate input.
 </br>✅Plate: A plate can be used to hold switches in place and provide stability.
 </br>✅Case: Plenty of options, currently just a plate, but later I would like to have a 3D printed one.
