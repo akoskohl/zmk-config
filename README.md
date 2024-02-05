@@ -13,7 +13,7 @@ This repo is a basic guide how I did it, and contains the files for my zmk keyma
 </br>✅Stabilizers: If you're building a larger keyboard or using certain key layouts, you'll need stabilizers for larger keys like Enter, Shift, and Spacebar, as I only have 1U keys, not needed for his build.
 </br>✅Soldering Iron and Solder: For soldering switches and other components to the PCB.
 </br>⌛ Layout design: You can program any keystroke anywhere as you want to.
-</br>⌛ Battery: To be truly wireless.
+</br>✅ Battery: To be truly wireless.
 </br>
 
 ## Base steps
